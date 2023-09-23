@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <title>Калькулятор</title>
+    <title>Калькулятор объема</title>
 </head>
 <body>
     <div>
-        <label>Введите длину ребра:</label>
-        <input type="txt" placeholder="длина" 
-        id="lenght">
+        <label>Введите имя Икосаэдра(для задания с input не разобралась):</label>
+        <input type="txtEx" placeholder="имя Икосаэдра" id="Exname">
+        <button id="buttonEx" onclick="nameArea()">Принять</button>
+        <div>
+            <label>Введите длину ребра:</label>
+            <input type="txt" placeholder="длина" id="lenght">
+        </div>
         
-        <label>Введите основание:</label>
-        <input type="txt" placeholder="основание" 
-        id="base">
         <button id="button" onclick="calculateArea()">Посчитать</button>
         <div class="result_container">
             <p>Объем икосаэдера:</p>
-            <p id="result">0</p>
+            <p id="result">0</p> 
         </div>
     </div>
     <script src="js/hello.js"></script>

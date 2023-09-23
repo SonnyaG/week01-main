@@ -1,15 +1,22 @@
+const nameArea = () => {
+    let Exname = document.getElementById("exname").textContent;
+
+    document.getElementById("exname").innerHTML = Exname;
+    //return userName;
+}
+
 const calculateArea = () => {
     let lenght = document.getElementById("lenght").value;
-    let base = document.getElementById("base").value;
-
     let area = (5 * Math.pow(lenght, 3) / 12) * (3 + Math.sqrt(5));
 
     document.getElementById("result").innerHTML = area;
-    document.getElementById("button").style = "color: #ff0000";
+    document.getElementById("button").style = "color: #808080";
     //return userName;
 }
-let username = prompt('Add username');
-console.log(`Привет, ${username}!`);
+let username = prompt('Add username'); //необходимо использовать для приветственного слова
+console.log(`Привет, ${username}!`);   //вывод на консоль
+
+
 
 // Объявление переменных с различными типами данных
 var number = 10; // Числовой тип данных (number)
