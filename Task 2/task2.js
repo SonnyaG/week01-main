@@ -26,4 +26,3 @@ console.log(typeof nullVariable); // object
 console.log(Number.MAX_VALUE); // Максимальное значение числового типа данных - 1.7976931348623157e+308
 console.log(Number.MIN_VALUE); // Минимальное положительное значение числового типа данных - 5e-324
 
-console.log(result);
